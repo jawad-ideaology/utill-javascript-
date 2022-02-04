@@ -6,6 +6,8 @@
     return { Days: Days, Hours: Hours, Minutes: Minutes };
   };
 
+// const startDate = moment(pool.startDate).utc().valueOf(),
+
   const dateComparision = (startDate: number, endDate: number): string => {
     const cd = new Date();
     const ct = moment(cd).utc().unix();
